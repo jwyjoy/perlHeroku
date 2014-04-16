@@ -1,3 +1,20 @@
-requires 'Plack', '1.0000';
-requires 'DBI', '1.6';
+requires 'perl', '5.10.0';
+requires 'Plack';
+requires 'Plack::Middleware::ReverseProxy';
+requires 'Starlet';
+requires 'Amon2';
+requires 'Amon2::Lite';
+requires 'JSON';
+requires 'Mouse';
+requires 'Module::Functions';
 
+requires 'Plack::Request';
+requires 'HTTP::Status';
+requires 'Config::Pit';
+requires 'Data::GUID::URLSafe';
+requires 'DateTimeX::Factory';
+requires 'Digest::MurmurHash';
+requires 'Digest::MD5';
+requires 'DBI';
+requires 'DBIx::Sunny';
+requires 'DBD::mysql';
